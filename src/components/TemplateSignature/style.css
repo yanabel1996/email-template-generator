@@ -1,0 +1,106 @@
+.template {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.template-signature {
+  min-width: 700px;
+  min-height: 400px;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #192732;
+  color: white;
+  border-top: 40px solid #192732;
+  border-radius: 4px;
+}
+
+.template-signature__container {
+  width: auto;
+  display: inline-flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile__img {
+  width: 130px;
+  object-fit: cover;
+}
+
+.template-signature__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+  gap: 15px;
+}
+
+.template-signature__top-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 0;
+  gap: 15px;
+  width: 100%;
+}
+
+.template-signature__top-left h2 {
+  padding: 5px 0;
+}
+
+.template-signature__top-left p {
+  padding: 5px 0;
+}
+
+.template-signature__top-right a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.template-signature__top-right p {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  gap: 10px;
+}
+
+.template-signature__top.large h2 {
+  font-size: 20px;
+}
+.template-signature__top.medium h2 {
+  font-size: 18px;
+}
+.template-signature__top.small h2 {
+  font-size: 16px;
+}
+
+.template-signature__top.large p,
+.template-signature__top.large a {
+  font-size: 16px;
+}
+.template-signature__top.medium p,
+.template-signature__top.medium a {
+  font-size: 14px;
+}
+.template-signature__top.small p,
+.template-signature__top.small a {
+  font-size: 12px;
+}
+
+.template__btn {
+  width: 250px;
+  padding: 15px 20px;
+  font-size: 20px;
+  background-color: #ff5b35;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

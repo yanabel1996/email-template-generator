@@ -1,0 +1,35 @@
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 120px);
+  padding: 15px 10px;
+  color: white;
+}
+
+.profile-info label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+}
+
+.profile-info__groups {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-info input {
+  height: 35px;
+  padding: 5px 10px;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.profile-info input::placeholder {
+  color: rgb(181, 181, 181);
+}

@@ -1,0 +1,32 @@
+.form-signature {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(25, 39, 50);
+}
+
+.list {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-signature__list {
+  display: flex;
+}
+
+.list__item {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+
+.list__item.active {
+  background-color: rgb(46, 71, 93);
+}
